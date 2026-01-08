@@ -19,8 +19,11 @@ A fully compliant Model Context Protocol (MCP) server built in Node.js that inte
 
 ## 📘 MCP Endpoint
 
-All JSON-RPC messages must be sent to the Azure Function App MCP endpoint:
+All JSON-RPC messages must be sent to the Azure Function App MCP endpoint
+
+```bash
 POST https://{function-app-name}.azurewebsites.net/runtime/webhooks/mcp
+```
 
 
 ## Supported Methods
